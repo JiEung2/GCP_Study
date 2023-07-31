@@ -1,1 +1,1 @@
-# Serverless Messaging sith Pub/Sub
+# Serverless Messaging with Pub/Sub
