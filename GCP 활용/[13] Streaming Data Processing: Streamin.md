@@ -59,18 +59,14 @@ Dataflow 파이프라인은 나중에 생성되어 BigQuery 데이터 세트의 
     ~~~shell
     cat run_oncloud.sh
     ~~~
-4. Github에서 소스코드를 보기위한 URL
-
-     https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/courses/streaming/process/sandiego/run_oncloud.sh
+4. [Github에서 소스코드를 보기위한 URL](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/courses/streaming/process/sandiego/run_oncloud.sh)
 5. 스크립터에는 프로젝트id, 버킷 이름, 클래스 이름의 세 가지 인수가 필요
 6. 자바 디렉토리로 이동. 소스파일 AverageSpeeds.java 식별
     ~~~shell
     cd ~/training-data-analyst/courses/streaming/process/sandiego/src/main/java/com/google/cloud/training/dataanalyst/sandiego
     cat AverageSpeeds.java
     ~~~
-7. Github에서 AverageSpeeds.java 파일을 확인하기 위한 URL
-
-    https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/courses/streaming/process/sandiego/src/main/java/com/google/cloud/training/dataanalyst/sandiego/AverageSpeeds.java
+7. [Github에서 AverageSpeeds.java 파일을 확인하기 위한 URL](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/courses/streaming/process/sandiego/src/main/java/com/google/cloud/training/dataanalyst/sandiego/AverageSpeeds.java)
 
 8. SSH 터미널로 돌아가 Dataflow 파이프라인을 실행하여 PubSub에서 읽고 BigQuery에 씀
     ~~~shell
